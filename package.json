@@ -10,8 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "lottie-react-native": "^6.7.2",
     "react": "18.2.0",
-    "react-native": "0.74.4"
+    "react-native": "0.74.4",
+    "react-native-device-info": "^11.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -32,5 +34,10 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
   }
 }

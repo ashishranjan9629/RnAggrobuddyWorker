@@ -5,5 +5,5 @@ const screenWidth = Dimensions.get('window').width;
 const baseWidth = (baseWidthPercentage/100)*screenWidth;
 const scale = screenWidth/baseWidth;
 const responsiveSize= value* scale;
-return responsive;
+return responsiveSize;
 }
